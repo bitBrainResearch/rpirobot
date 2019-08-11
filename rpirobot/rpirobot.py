@@ -1,4 +1,5 @@
+from gpiozero import Robot
 
-# testing
-
-print("Hello fing stupid thing")
+# 11, 12
+# 13, 15
+robby = Robot(left=(11,12), right=(9,10))
